@@ -4,10 +4,12 @@
 
 # $1 = lss filename
 lss() {
-  if [ -f $1 ]; then
-    less $1
+  # last arg is file
+  FILE=${@: -1}
+  if [ -f "$FILE" ]; then
+    less $@
   else
-    ls $1
+    ls $@
   fi
 }
 
