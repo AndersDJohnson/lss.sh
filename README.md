@@ -16,3 +16,7 @@ Add this to your shell init script:
 ```sh
 source lss.sh
 ```
+
+## Used by
+
+* [AndersDJohnson/dotfiles](https://github.com/AndersDJohnson/dotfiles)
